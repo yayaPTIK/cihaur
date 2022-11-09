@@ -1,0 +1,40 @@
+.container-popup {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  /* display: none; */
+  text-align: center;
+}
+.container-popup img {
+  width: 100%;
+  padding: 3%;
+}
+.box-mini {
+  margin: 10px auto;
+  height: 100vh;
+  width: 80%;
+}
+.container-popup button {
+  border-radius: 50%;
+}
+.container-popup button {
+  position: absolute;
+}
+@media (max-width: 425px) {
+  .box-mini {
+    margin-top: 25%;
+    width: 100%;
+  }
+  .container-popup img {
+    min-height: 50%;
+    width: 100%;
+  }
+  .box-mini button {
+    position: absolute;
+    right: 0;
+  }
+}
